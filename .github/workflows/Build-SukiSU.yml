@@ -3,7 +3,7 @@ name: 编译一加ACE5内核
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 23 * * *'  # UTC时间23点（北京时间次日7点）
+    - cron: '0 18 * * *'  # UTC时间18点（北京时间次日2点）
 
 env:
   RETENTION_COUNT: 7  # 保留的发布版本数量
