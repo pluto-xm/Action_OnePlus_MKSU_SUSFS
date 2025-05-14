@@ -4,6 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 18 * * *'  # UTC时间18点（北京时间次日2点）
+    - cron: '0 20 * * *'
 
 env:
   RETENTION_COUNT: 7  # 保留的发布版本数量
